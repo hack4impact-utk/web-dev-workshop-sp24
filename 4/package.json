@@ -1,0 +1,19 @@
+{
+  "name": "4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lesson": "tsc && node dist/lesson.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.2.3"
+  }
+}
