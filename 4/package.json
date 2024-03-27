@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lesson": "tsc && node dist/lesson.js"
+    "lesson": "tsc && node dist/lesson.js",
+    "db-setup": "tsc && node dist/setup.js"
   },
   "author": "",
   "license": "ISC",
