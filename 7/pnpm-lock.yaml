@@ -11,6 +11,9 @@ dependencies:
   '@emotion/styled':
     specifier: ^11.11.5
     version: 11.11.5(@emotion/react@11.11.4)(@types/react@18.2.74)(react@18.2.0)
+  '@hack4impact-utk/use-form-validation':
+    specifier: ^1.0.0
+    version: 1.0.0(zod@3.22.4)
   '@mui/material':
     specifier: ^5.15.15
     version: 5.15.15(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.2.74)(react-dom@18.2.0)(react@18.2.0)
@@ -600,6 +603,16 @@ packages:
 
   /@floating-ui/utils@0.2.1:
     resolution: {integrity: sha512-9TANp6GPoMtYzQdt54kfAyMmz1+osLlXdg2ENroU7zzrtflTLrrC/lgrIfaSe+Wu0b89GKccT7vxXA0MoAIO+Q==}
+    dev: false
+
+  /@hack4impact-utk/use-form-validation@1.0.0(zod@3.22.4):
+    resolution: {integrity: sha512-GBTUhdYYFwipAeCGpf1J+7YHRzuwNncsUn1XDKvF38xOmVl64sbo/Yk/6oL76NVkm77+gqH7ahvOW2fT7TQdaw==}
+    engines: {node: '>=16'}
+    peerDependencies:
+      zod: ^3.22.2
+    dependencies:
+      react: 18.2.0
+      zod: 3.22.4
     dev: false
 
   /@humanwhocodes/config-array@0.11.14:
