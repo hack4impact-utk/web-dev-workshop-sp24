@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-const MONGODB_URI = 'mongodb://localhost:27017/test';
+const MONGODB_URI = 'mongodb://127.0.0.1/test';
 
 /**
  * Global is used here to maintain a cached connection across hot reloads
