@@ -5,7 +5,7 @@ import { MongoClient } from "mongodb";
 //   description?: string;
 // }
 async function setup() {
-  const uri = "mongodb://localhost:27017";
+  const uri = "mongodb://127.0.0.1";
   const client = new MongoClient(uri);
 
   const db = client.db("test");
